@@ -1,0 +1,4 @@
+Train_FR_model/lfw_funneled/
+Train_FR_model/pairs.txt
+Train_FR_model/pairsDevTest.txt
+Train_FR_model/pairsDevTrain.txt
