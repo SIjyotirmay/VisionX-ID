@@ -23,7 +23,5 @@ def crop_faces_in_dataset(root_dir):
                 if face.size == 0:
                     continue
                 resized = cv2.resize(face, (112, 112))
-                cv2.imwrite(img_path, resized)  # Overwrite original
-
-# 📌 Run the script
-crop_faces_in_dataset("./data_collected")  # replace 'dataset' with your root directory
+                cv2.imwrite(img_path, resized)  # Overwrite original 
+crop_faces_in_dataset("./data_collected") 
